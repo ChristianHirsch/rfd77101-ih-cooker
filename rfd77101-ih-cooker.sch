@@ -243,7 +243,7 @@ U 1 1 5AB2558B
 P 3350 4100
 F 0 "J1" H 3270 3775 50  0000 C CNN
 F 1 "Conn_01x02" H 3270 3866 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00241_1x02_P10.16mm_Horizontal" H 3350 4100 50  0001 C CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00067_1x02_P7.50mm_Horizontal" H 3350 4100 50  0001 C CNN
 F 3 "~" H 3350 4100 50  0001 C CNN
 	1    3350 4100
 	-1   0    0    1   
@@ -692,9 +692,9 @@ Text Label 1100 6600 2    50   ~ 0
 LV_O
 Text Label 2150 6600 2    50   ~ 0
 LV_I
-Text Label 7350 3950 2    50   ~ 0
+Text Label 7350 3550 2    50   ~ 0
 LV_O
-Text Label 7350 4050 2    50   ~ 0
+Text Label 7350 3750 2    50   ~ 0
 LV_I
 $Comp
 L Amplifier_Operational:MCP6002-xMC U4
@@ -899,8 +899,14 @@ F 3 "" H 6400 7350 50  0001 C CNN
 $EndComp
 Text Label 6400 7000 0    50   ~ 0
 LV_Power_I
-Text Label 7350 2850 2    50   ~ 0
+Text Label 7350 2950 2    50   ~ 0
 LV_Power_I
 Text Label 9100 3550 0    50   ~ 0
 LV_Power_O
+Text Label 7350 4050 2    50   ~ 0
+SCK
+Text Label 7350 3950 2    50   ~ 0
+~SS
+Text Label 7350 3650 2    50   ~ 0
+MISO
 $EndSCHEMATC
